@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+    <title>Travel App</title>
+  </head>
+
+  <body>
+    <div class="grid-container">
+      <div class="header">
+        <h1>Travel Planner</h1>
+      </div>
+      <div class="Picture-holder">
+        <div class="Picture">
+          <img id="pic" src="https://source.unsplash.com/user/erondu/375x200" />
+        </div>
+      </div>
+      <div class="Save">
+        <div id="spacer"></div>
+        <div class="save-flex-container">
+          <div class="flex1">
+            <h3>
+              Destination<br />
+              <input type="text" name="place" placeholder="" id="queryPlace" />
+            </h3>
+          </div>
+          <div class="flex2">
+            <h3>
+              Date <br />
+              <input type="date" id="queryTime" />
+            </h3>
+          </div>
+          <div class="flex3">
+            <div class="btn-container">
+              <div class="btn-center">
+                <button id="button1">save Trip</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="Result">
+        <div id="spacer"></div>
+        <div class="result-container">
+          <div>
+            <h4 class="h4">Current Weather</h4>
+          </div>
+          <div id="temperature">Today: <span id="temp"></span></div>
+          <div id="departure">
+            Days till departure: <span id="depart"></span>
+          </div>
+        </div>
+      </div>
+      <div class="Forecast">
+        <div id="spacer"></div>
+        <div class="forecast-container">
+          <div>
+            <h4 class="h4">Forecast</h4>
+          </div>
+          <ul id="tomorrow"></ul>
+          <li class="list-group-item"></li>
+          <li class="list-group-item"></li>
+          <li class="list-group-item"></li>
+          <li class="list-group-item"></li>
+          <li class="list-group-item"></li>
+          <li class="list-group-item"></li>
+          <li class="list-group-item"></li>
+          <li class="list-group-item"></li>
+          <li class="list-group-item"></li>
+          <li class="list-group-item"></li>
+          <li class="list-group-item"></li>
+          <li class="list-group-item"></li>
+          <li class="list-group-item"></li>
+          <li class="list-group-item"></li>
+          <li class="list-group-item"></li>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
